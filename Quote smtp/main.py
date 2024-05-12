@@ -15,5 +15,5 @@ with smtplib.SMTP('smtp.gmail.com', port=587) as connection:
             connection.sendmail(
                 from_addr=provider,
                 to_addrs='hasanforaty@gmail.com',
-                msg=f'Subject:Start your week\n\n{quote}\n'
+                msg=f'Subject:Monday Motivation\n\n{quote}\n'
             )
